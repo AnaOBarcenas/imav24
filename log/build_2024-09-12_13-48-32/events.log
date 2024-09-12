@@ -1,0 +1,126 @@
+[0.000000] (-) TimerEvent: {}
+[0.002151] (imav24) JobQueued: {'identifier': 'imav24', 'dependencies': OrderedDict()}
+[0.003212] (imav24) JobStarted: {'identifier': 'imav24'}
+[0.099517] (-) TimerEvent: {}
+[0.199922] (-) TimerEvent: {}
+[0.300407] (-) TimerEvent: {}
+[0.401550] (-) TimerEvent: {}
+[0.504921] (-) TimerEvent: {}
+[0.605362] (-) TimerEvent: {}
+[0.706655] (-) TimerEvent: {}
+[0.811339] (-) TimerEvent: {}
+[0.920954] (-) TimerEvent: {}
+[1.024859] (-) TimerEvent: {}
+[1.126564] (-) TimerEvent: {}
+[1.227042] (-) TimerEvent: {}
+[1.327402] (-) TimerEvent: {}
+[1.427808] (-) TimerEvent: {}
+[1.528242] (-) TimerEvent: {}
+[1.628806] (-) TimerEvent: {}
+[1.729321] (-) TimerEvent: {}
+[1.829875] (-) TimerEvent: {}
+[1.930367] (-) TimerEvent: {}
+[2.030827] (-) TimerEvent: {}
+[2.131291] (-) TimerEvent: {}
+[2.231818] (-) TimerEvent: {}
+[2.332208] (-) TimerEvent: {}
+[2.398678] (imav24) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/imav24', 'build', '--build-base', '/home/ana/imav_ws/src/imav24/build/imav24/build', 'install', '--record', '/home/ana/imav_ws/src/imav24/build/imav24/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ana/imav_ws/src/imav24', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ana', 'LC_TIME': 'es_MX.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ana/imav_ws/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ana', 'OLDPWD': '/home/ana/imav_ws/src/imav24/imav24', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_MX.UTF-8', 'SYSTEMD_EXEC_PID': '1749', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ana/imav_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ana', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ana', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/ana/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/AnaPC:@/tmp/.ICE-unix/1721,unix/AnaPC:/tmp/.ICE-unix/1721', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_MX.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/12c216fe_1ec5_42fd_b969_955a8945e652', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_MX.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.EKNYT2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.260', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ana/imav_ws/install/px4_msgs:/home/ana/imav_ws/install/imav24:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_MX.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_MX.UTF-8', 'LC_IDENTIFICATION': 'es_MX.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ana/imav_ws/src/imav24/build/imav24', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ana/imav_ws/src/imav24/build/imav24/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages:/home/ana/imav_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/home/ana/imav_ws/build/imav24:/home/ana/imav_ws/install/imav24/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_MX.UTF-8', 'LC_PAPER': 'es_MX.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/ana/imav_ws/install/px4_msgs'}, 'shell': False}
+[2.432329] (-) TimerEvent: {}
+[2.532766] (-) TimerEvent: {}
+[2.633258] (-) TimerEvent: {}
+[2.733684] (-) TimerEvent: {}
+[2.834005] (-) TimerEvent: {}
+[2.934365] (-) TimerEvent: {}
+[3.034752] (-) TimerEvent: {}
+[3.130766] (imav24) StdoutLine: {'line': b'running egg_info\n'}
+[3.132209] (imav24) StdoutLine: {'line': b'creating build/imav24/imav24.egg-info\n'}
+[3.132749] (imav24) StdoutLine: {'line': b'writing build/imav24/imav24.egg-info/PKG-INFO\n'}
+[3.133582] (imav24) StdoutLine: {'line': b'writing dependency_links to build/imav24/imav24.egg-info/dependency_links.txt\n'}
+[3.134269] (imav24) StdoutLine: {'line': b'writing entry points to build/imav24/imav24.egg-info/entry_points.txt\n'}
+[3.134498] (imav24) StdoutLine: {'line': b'writing requirements to build/imav24/imav24.egg-info/requires.txt\n'}
+[3.134759] (-) TimerEvent: {}
+[3.134993] (imav24) StdoutLine: {'line': b'writing top-level names to build/imav24/imav24.egg-info/top_level.txt\n'}
+[3.136099] (imav24) StdoutLine: {'line': b"writing manifest file 'build/imav24/imav24.egg-info/SOURCES.txt'\n"}
+[3.141453] (imav24) StdoutLine: {'line': b"reading manifest file 'build/imav24/imav24.egg-info/SOURCES.txt'\n"}
+[3.141870] (imav24) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[3.142642] (imav24) StdoutLine: {'line': b"writing manifest file 'build/imav24/imav24.egg-info/SOURCES.txt'\n"}
+[3.142954] (imav24) StdoutLine: {'line': b'running build\n'}
+[3.143178] (imav24) StdoutLine: {'line': b'running build_py\n'}
+[3.143395] (imav24) StdoutLine: {'line': b'creating /home/ana/imav_ws/src/imav24/build/imav24/build\n'}
+[3.143598] (imav24) StdoutLine: {'line': b'creating /home/ana/imav_ws/src/imav24/build/imav24/build/lib\n'}
+[3.143780] (imav24) StdoutLine: {'line': b'creating /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24\n'}
+[3.143938] (imav24) StdoutLine: {'line': b'copying imav24/joystick_control.py -> /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24\n'}
+[3.144110] (imav24) StdoutLine: {'line': b'copying imav24/__init__.py -> /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24\n'}
+[3.144337] (imav24) StdoutLine: {'line': b'copying imav24/SetPhoto.py -> /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24\n'}
+[3.144591] (imav24) StdoutLine: {'line': b'copying imav24/photographer_outdoor.py -> /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24\n'}
+[3.144702] (imav24) StdoutLine: {'line': b'copying imav24/ControlPID_Indoor_line.py -> /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24\n'}
+[3.144776] (imav24) StdoutLine: {'line': b'copying imav24/indoor_smach.py -> /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24\n'}
+[3.144850] (imav24) StdoutLine: {'line': b'copying imav24/go_to_waypoint.py -> /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24\n'}
+[3.144958] (imav24) StdoutLine: {'line': b'copying imav24/aruco_control.py -> /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24\n'}
+[3.145060] (imav24) StdoutLine: {'line': b'copying imav24/line_follower.py -> /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24\n'}
+[3.145155] (imav24) StdoutLine: {'line': b'copying imav24/px4_driver.py -> /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24\n'}
+[3.145404] (imav24) StdoutLine: {'line': b'copying imav24/state1.py -> /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24\n'}
+[3.145720] (imav24) StdoutLine: {'line': b'copying imav24/state2.py -> /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24\n'}
+[3.145889] (imav24) StdoutLine: {'line': b'copying imav24/send_command.py -> /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24\n'}
+[3.146134] (imav24) StdoutLine: {'line': b'copying imav24/camera_pub.py -> /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24\n'}
+[3.146535] (imav24) StdoutLine: {'line': b'copying imav24/cameraImage.py -> /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24\n'}
+[3.146900] (imav24) StdoutLine: {'line': b'running install\n'}
+[3.148210] (imav24) StdoutLine: {'line': b'running install_lib\n'}
+[3.149882] (imav24) StdoutLine: {'line': b'creating /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24\n'}
+[3.150081] (imav24) StdoutLine: {'line': b'copying /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24/joystick_control.py -> /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24\n'}
+[3.150196] (imav24) StdoutLine: {'line': b'copying /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24/__init__.py -> /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24\n'}
+[3.150287] (imav24) StdoutLine: {'line': b'copying /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24/SetPhoto.py -> /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24\n'}
+[3.150380] (imav24) StdoutLine: {'line': b'copying /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24/photographer_outdoor.py -> /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24\n'}
+[3.150549] (imav24) StdoutLine: {'line': b'copying /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24/ControlPID_Indoor_line.py -> /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24\n'}
+[3.150724] (imav24) StdoutLine: {'line': b'copying /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24/indoor_smach.py -> /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24\n'}
+[3.150892] (imav24) StdoutLine: {'line': b'copying /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24/go_to_waypoint.py -> /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24\n'}
+[3.151085] (imav24) StdoutLine: {'line': b'copying /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24/aruco_control.py -> /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24\n'}
+[3.151255] (imav24) StdoutLine: {'line': b'copying /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24/line_follower.py -> /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24\n'}
+[3.151405] (imav24) StdoutLine: {'line': b'copying /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24/px4_driver.py -> /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24\n'}
+[3.151661] (imav24) StdoutLine: {'line': b'copying /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24/state1.py -> /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24\n'}
+[3.151806] (imav24) StdoutLine: {'line': b'copying /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24/state2.py -> /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24\n'}
+[3.151910] (imav24) StdoutLine: {'line': b'copying /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24/send_command.py -> /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24\n'}
+[3.152114] (imav24) StdoutLine: {'line': b'copying /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24/camera_pub.py -> /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24\n'}
+[3.152349] (imav24) StdoutLine: {'line': b'copying /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24/cameraImage.py -> /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24\n'}
+[3.157489] (imav24) StdoutLine: {'line': b'byte-compiling /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24/joystick_control.py to joystick_control.cpython-310.pyc\n'}
+[3.160737] (imav24) StdoutLine: {'line': b'byte-compiling /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24/__init__.py to __init__.cpython-310.pyc\n'}
+[3.161159] (imav24) StdoutLine: {'line': b'byte-compiling /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24/SetPhoto.py to SetPhoto.cpython-310.pyc\n'}
+[3.164660] (imav24) StdoutLine: {'line': b'byte-compiling /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24/photographer_outdoor.py to photographer_outdoor.cpython-310.pyc\n'}
+[3.165906] (imav24) StdoutLine: {'line': b'byte-compiling /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24/ControlPID_Indoor_line.py to ControlPID_Indoor_line.cpython-310.pyc\n'}
+[3.166813] (imav24) StdoutLine: {'line': b'byte-compiling /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24/indoor_smach.py to indoor_smach.cpython-310.pyc\n'}
+[3.167495] (imav24) StdoutLine: {'line': b'byte-compiling /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24/go_to_waypoint.py to go_to_waypoint.cpython-310.pyc\n'}
+[3.168755] (imav24) StdoutLine: {'line': b'byte-compiling /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24/aruco_control.py to aruco_control.cpython-310.pyc\n'}
+[3.171879] (imav24) StdoutLine: {'line': b'byte-compiling /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24/line_follower.py to line_follower.cpython-310.pyc\n'}
+[3.175210] (imav24) StdoutLine: {'line': b'byte-compiling /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24/px4_driver.py to px4_driver.cpython-310.pyc\n'}
+[3.178621] (imav24) StdoutLine: {'line': b'byte-compiling /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24/state1.py to state1.cpython-310.pyc\n'}
+[3.179340] (imav24) StdoutLine: {'line': b'byte-compiling /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24/state2.py to state2.cpython-310.pyc\n'}
+[3.181512] (imav24) StdoutLine: {'line': b'byte-compiling /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24/send_command.py to send_command.cpython-310.pyc\n'}
+[3.182322] (imav24) StdoutLine: {'line': b'byte-compiling /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24/camera_pub.py to camera_pub.cpython-310.pyc\n'}
+[3.183522] (imav24) StdoutLine: {'line': b'byte-compiling /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24/cameraImage.py to cameraImage.cpython-310.pyc\n'}
+[3.183870] (imav24) StdoutLine: {'line': b'running install_data\n'}
+[3.184231] (imav24) StdoutLine: {'line': b'creating /home/ana/imav_ws/src/imav24/install/imav24/share/ament_index\n'}
+[3.184654] (imav24) StdoutLine: {'line': b'creating /home/ana/imav_ws/src/imav24/install/imav24/share/ament_index/resource_index\n'}
+[3.184867] (imav24) StdoutLine: {'line': b'creating /home/ana/imav_ws/src/imav24/install/imav24/share/ament_index/resource_index/packages\n'}
+[3.185299] (imav24) StdoutLine: {'line': b'copying resource/imav24 -> /home/ana/imav_ws/src/imav24/install/imav24/share/ament_index/resource_index/packages\n'}
+[3.185394] (imav24) StdoutLine: {'line': b'copying package.xml -> /home/ana/imav_ws/src/imav24/install/imav24/share/imav24\n'}
+[3.185473] (imav24) StdoutLine: {'line': b'copying launch/simulador.launch.py -> /home/ana/imav_ws/src/imav24/install/imav24/share/imav24\n'}
+[3.185622] (imav24) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.190064] (imav24) StdoutLine: {'line': b'Copying build/imav24/imav24.egg-info to /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24-0.0.0-py3.10.egg-info\n'}
+[3.191751] (imav24) StdoutLine: {'line': b'running install_scripts\n'}
+[3.234927] (-) TimerEvent: {}
+[3.258551] (imav24) StdoutLine: {'line': b'Installing aruco_control script to /home/ana/imav_ws/src/imav24/install/imav24/lib/imav24\n'}
+[3.259578] (imav24) StdoutLine: {'line': b'Installing camera_pub script to /home/ana/imav_ws/src/imav24/install/imav24/lib/imav24\n'}
+[3.259922] (imav24) StdoutLine: {'line': b'Installing go_to_waypoint script to /home/ana/imav_ws/src/imav24/install/imav24/lib/imav24\n'}
+[3.260084] (imav24) StdoutLine: {'line': b'Installing indoor_smach script to /home/ana/imav_ws/src/imav24/install/imav24/lib/imav24\n'}
+[3.260289] (imav24) StdoutLine: {'line': b'Installing joystick_control script to /home/ana/imav_ws/src/imav24/install/imav24/lib/imav24\n'}
+[3.260513] (imav24) StdoutLine: {'line': b'Installing line_follower script to /home/ana/imav_ws/src/imav24/install/imav24/lib/imav24\n'}
+[3.260710] (imav24) StdoutLine: {'line': b'Installing photographer_outdoor script to /home/ana/imav_ws/src/imav24/install/imav24/lib/imav24\n'}
+[3.260869] (imav24) StdoutLine: {'line': b'Installing px4_driver script to /home/ana/imav_ws/src/imav24/install/imav24/lib/imav24\n'}
+[3.260994] (imav24) StdoutLine: {'line': b'Installing send_command script to /home/ana/imav_ws/src/imav24/install/imav24/lib/imav24\n'}
+[3.261127] (imav24) StdoutLine: {'line': b'Installing state1 script to /home/ana/imav_ws/src/imav24/install/imav24/lib/imav24\n'}
+[3.261250] (imav24) StdoutLine: {'line': b'Installing state2 script to /home/ana/imav_ws/src/imav24/install/imav24/lib/imav24\n'}
+[3.261447] (imav24) StdoutLine: {'line': b"writing list of installed files to '/home/ana/imav_ws/src/imav24/build/imav24/install.log'\n"}
+[3.333522] (imav24) CommandEnded: {'returncode': 0}
+[3.335060] (-) TimerEvent: {}
+[3.360673] (imav24) JobEnded: {'identifier': 'imav24', 'rc': 0}
+[3.361414] (-) EventReactorShutdown: {}

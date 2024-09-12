@@ -10,7 +10,7 @@ class SendCommand(Node):
 
         self.publish_vehicle_command(VehicleCommand.VEHICLE_CMD_MISSION_START, param1=1.0, param2=1.0)
 
-        self.get_logger().info("Command sent.")
+        self.get_logger().info("Command sent")
 
 
 

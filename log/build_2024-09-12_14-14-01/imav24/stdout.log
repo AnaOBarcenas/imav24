@@ -1,0 +1,30 @@
+running egg_info
+writing build/imav24/imav24.egg-info/PKG-INFO
+writing dependency_links to build/imav24/imav24.egg-info/dependency_links.txt
+writing entry points to build/imav24/imav24.egg-info/entry_points.txt
+writing requirements to build/imav24/imav24.egg-info/requires.txt
+writing top-level names to build/imav24/imav24.egg-info/top_level.txt
+reading manifest file 'build/imav24/imav24.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'build/imav24/imav24.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24-0.0.0-py3.10.egg-info' (and everything under it)
+Copying build/imav24/imav24.egg-info to /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24-0.0.0-py3.10.egg-info
+running install_scripts
+Installing aruco_control script to /home/ana/imav_ws/src/imav24/install/imav24/lib/imav24
+Installing camera_pub script to /home/ana/imav_ws/src/imav24/install/imav24/lib/imav24
+Installing go_to_waypoint script to /home/ana/imav_ws/src/imav24/install/imav24/lib/imav24
+Installing indoor_smach script to /home/ana/imav_ws/src/imav24/install/imav24/lib/imav24
+Installing joystick_control script to /home/ana/imav_ws/src/imav24/install/imav24/lib/imav24
+Installing line_follower script to /home/ana/imav_ws/src/imav24/install/imav24/lib/imav24
+Installing photographer_outdoor script to /home/ana/imav_ws/src/imav24/install/imav24/lib/imav24
+Installing px4_driver script to /home/ana/imav_ws/src/imav24/install/imav24/lib/imav24
+Installing send_command script to /home/ana/imav_ws/src/imav24/install/imav24/lib/imav24
+Installing state1 script to /home/ana/imav_ws/src/imav24/install/imav24/lib/imav24
+Installing state2 script to /home/ana/imav_ws/src/imav24/install/imav24/lib/imav24
+writing list of installed files to '/home/ana/imav_ws/src/imav24/build/imav24/install.log'

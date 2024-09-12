@@ -1,0 +1,88 @@
+[2.397s] Invoking command in '/home/ana/imav_ws/src/imav24': PYTHONPATH=/home/ana/imav_ws/src/imav24/build/imav24/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/imav24 build --build-base /home/ana/imav_ws/src/imav24/build/imav24/build install --record /home/ana/imav_ws/src/imav24/build/imav24/install.log --single-version-externally-managed install_data
+[3.128s] running egg_info
+[3.129s] creating build/imav24/imav24.egg-info
+[3.130s] writing build/imav24/imav24.egg-info/PKG-INFO
+[3.130s] writing dependency_links to build/imav24/imav24.egg-info/dependency_links.txt
+[3.131s] writing entry points to build/imav24/imav24.egg-info/entry_points.txt
+[3.131s] writing requirements to build/imav24/imav24.egg-info/requires.txt
+[3.132s] writing top-level names to build/imav24/imav24.egg-info/top_level.txt
+[3.133s] writing manifest file 'build/imav24/imav24.egg-info/SOURCES.txt'
+[3.138s] reading manifest file 'build/imav24/imav24.egg-info/SOURCES.txt'
+[3.139s] adding license file 'LICENSE'
+[3.139s] writing manifest file 'build/imav24/imav24.egg-info/SOURCES.txt'
+[3.140s] running build
+[3.140s] running build_py
+[3.140s] creating /home/ana/imav_ws/src/imav24/build/imav24/build
+[3.140s] creating /home/ana/imav_ws/src/imav24/build/imav24/build/lib
+[3.141s] creating /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24
+[3.141s] copying imav24/joystick_control.py -> /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24
+[3.141s] copying imav24/__init__.py -> /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24
+[3.141s] copying imav24/SetPhoto.py -> /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24
+[3.141s] copying imav24/photographer_outdoor.py -> /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24
+[3.141s] copying imav24/ControlPID_Indoor_line.py -> /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24
+[3.142s] copying imav24/indoor_smach.py -> /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24
+[3.142s] copying imav24/go_to_waypoint.py -> /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24
+[3.142s] copying imav24/aruco_control.py -> /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24
+[3.142s] copying imav24/line_follower.py -> /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24
+[3.142s] copying imav24/px4_driver.py -> /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24
+[3.142s] copying imav24/state1.py -> /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24
+[3.143s] copying imav24/state2.py -> /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24
+[3.143s] copying imav24/send_command.py -> /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24
+[3.143s] copying imav24/camera_pub.py -> /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24
+[3.143s] copying imav24/cameraImage.py -> /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24
+[3.144s] running install
+[3.145s] running install_lib
+[3.147s] creating /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24
+[3.147s] copying /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24/joystick_control.py -> /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24
+[3.147s] copying /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24/__init__.py -> /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24
+[3.147s] copying /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24/SetPhoto.py -> /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24
+[3.147s] copying /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24/photographer_outdoor.py -> /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24
+[3.147s] copying /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24/ControlPID_Indoor_line.py -> /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24
+[3.148s] copying /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24/indoor_smach.py -> /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24
+[3.148s] copying /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24/go_to_waypoint.py -> /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24
+[3.148s] copying /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24/aruco_control.py -> /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24
+[3.148s] copying /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24/line_follower.py -> /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24
+[3.148s] copying /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24/px4_driver.py -> /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24
+[3.148s] copying /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24/state1.py -> /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24
+[3.149s] copying /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24/state2.py -> /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24
+[3.149s] copying /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24/send_command.py -> /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24
+[3.149s] copying /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24/camera_pub.py -> /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24
+[3.149s] copying /home/ana/imav_ws/src/imav24/build/imav24/build/lib/imav24/cameraImage.py -> /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24
+[3.154s] byte-compiling /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24/joystick_control.py to joystick_control.cpython-310.pyc
+[3.158s] byte-compiling /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24/__init__.py to __init__.cpython-310.pyc
+[3.158s] byte-compiling /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24/SetPhoto.py to SetPhoto.cpython-310.pyc
+[3.162s] byte-compiling /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24/photographer_outdoor.py to photographer_outdoor.cpython-310.pyc
+[3.163s] byte-compiling /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24/ControlPID_Indoor_line.py to ControlPID_Indoor_line.cpython-310.pyc
+[3.164s] byte-compiling /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24/indoor_smach.py to indoor_smach.cpython-310.pyc
+[3.164s] byte-compiling /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24/go_to_waypoint.py to go_to_waypoint.cpython-310.pyc
+[3.166s] byte-compiling /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24/aruco_control.py to aruco_control.cpython-310.pyc
+[3.169s] byte-compiling /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24/line_follower.py to line_follower.cpython-310.pyc
+[3.172s] byte-compiling /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24/px4_driver.py to px4_driver.cpython-310.pyc
+[3.175s] byte-compiling /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24/state1.py to state1.cpython-310.pyc
+[3.176s] byte-compiling /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24/state2.py to state2.cpython-310.pyc
+[3.179s] byte-compiling /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24/send_command.py to send_command.cpython-310.pyc
+[3.179s] byte-compiling /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24/camera_pub.py to camera_pub.cpython-310.pyc
+[3.180s] byte-compiling /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24/cameraImage.py to cameraImage.cpython-310.pyc
+[3.181s] running install_data
+[3.181s] creating /home/ana/imav_ws/src/imav24/install/imav24/share/ament_index
+[3.182s] creating /home/ana/imav_ws/src/imav24/install/imav24/share/ament_index/resource_index
+[3.182s] creating /home/ana/imav_ws/src/imav24/install/imav24/share/ament_index/resource_index/packages
+[3.182s] copying resource/imav24 -> /home/ana/imav_ws/src/imav24/install/imav24/share/ament_index/resource_index/packages
+[3.182s] copying package.xml -> /home/ana/imav_ws/src/imav24/install/imav24/share/imav24
+[3.182s] copying launch/simulador.launch.py -> /home/ana/imav_ws/src/imav24/install/imav24/share/imav24
+[3.182s] running install_egg_info
+[3.187s] Copying build/imav24/imav24.egg-info to /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24-0.0.0-py3.10.egg-info
+[3.189s] running install_scripts
+[3.255s] Installing aruco_control script to /home/ana/imav_ws/src/imav24/install/imav24/lib/imav24
+[3.257s] Installing camera_pub script to /home/ana/imav_ws/src/imav24/install/imav24/lib/imav24
+[3.257s] Installing go_to_waypoint script to /home/ana/imav_ws/src/imav24/install/imav24/lib/imav24
+[3.257s] Installing indoor_smach script to /home/ana/imav_ws/src/imav24/install/imav24/lib/imav24
+[3.257s] Installing joystick_control script to /home/ana/imav_ws/src/imav24/install/imav24/lib/imav24
+[3.257s] Installing line_follower script to /home/ana/imav_ws/src/imav24/install/imav24/lib/imav24
+[3.258s] Installing photographer_outdoor script to /home/ana/imav_ws/src/imav24/install/imav24/lib/imav24
+[3.258s] Installing px4_driver script to /home/ana/imav_ws/src/imav24/install/imav24/lib/imav24
+[3.258s] Installing send_command script to /home/ana/imav_ws/src/imav24/install/imav24/lib/imav24
+[3.258s] Installing state1 script to /home/ana/imav_ws/src/imav24/install/imav24/lib/imav24
+[3.258s] Installing state2 script to /home/ana/imav_ws/src/imav24/install/imav24/lib/imav24
+[3.258s] writing list of installed files to '/home/ana/imav_ws/src/imav24/build/imav24/install.log'
+[3.331s] Invoked command in '/home/ana/imav_ws/src/imav24' returned '0': PYTHONPATH=/home/ana/imav_ws/src/imav24/build/imav24/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/imav24 build --build-base /home/ana/imav_ws/src/imav24/build/imav24/build install --record /home/ana/imav_ws/src/imav24/build/imav24/install.log --single-version-externally-managed install_data

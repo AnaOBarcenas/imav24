@@ -1,0 +1,13 @@
+[console_scripts]
+aruco_control = imav24.aruco_control:main
+camera_pub = imav24.camera_pub:main
+go_to_waypoint = imav24.go_to_waypoint:main
+indoor_smach = imav24.indoor_smach:main
+joystick_control = imav24.joystick_control:main
+line_follower = imav24.line_follower:main
+photographer_outdoor = imav24.photographer_outdoor
+px4_driver = imav24.px4_driver:main
+send_command = imav24.send_command:main
+state1 = imav24.state1:main
+state2 = imav24.state2:main
+

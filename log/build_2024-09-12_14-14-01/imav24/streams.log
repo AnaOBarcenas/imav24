@@ -1,0 +1,32 @@
+[0.661s] Invoking command in '/home/ana/imav_ws/src/imav24': PYTHONPATH=/home/ana/imav_ws/src/imav24/build/imav24/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/imav24 build --build-base /home/ana/imav_ws/src/imav24/build/imav24/build install --record /home/ana/imav_ws/src/imav24/build/imav24/install.log --single-version-externally-managed install_data
+[0.890s] running egg_info
+[0.890s] writing build/imav24/imav24.egg-info/PKG-INFO
+[0.891s] writing dependency_links to build/imav24/imav24.egg-info/dependency_links.txt
+[0.891s] writing entry points to build/imav24/imav24.egg-info/entry_points.txt
+[0.891s] writing requirements to build/imav24/imav24.egg-info/requires.txt
+[0.891s] writing top-level names to build/imav24/imav24.egg-info/top_level.txt
+[0.893s] reading manifest file 'build/imav24/imav24.egg-info/SOURCES.txt'
+[0.893s] adding license file 'LICENSE'
+[0.894s] writing manifest file 'build/imav24/imav24.egg-info/SOURCES.txt'
+[0.894s] running build
+[0.894s] running build_py
+[0.895s] running install
+[0.895s] running install_lib
+[0.898s] running install_data
+[0.898s] running install_egg_info
+[0.901s] removing '/home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24-0.0.0-py3.10.egg-info' (and everything under it)
+[0.901s] Copying build/imav24/imav24.egg-info to /home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages/imav24-0.0.0-py3.10.egg-info
+[0.902s] running install_scripts
+[0.925s] Installing aruco_control script to /home/ana/imav_ws/src/imav24/install/imav24/lib/imav24
+[0.925s] Installing camera_pub script to /home/ana/imav_ws/src/imav24/install/imav24/lib/imav24
+[0.925s] Installing go_to_waypoint script to /home/ana/imav_ws/src/imav24/install/imav24/lib/imav24
+[0.925s] Installing indoor_smach script to /home/ana/imav_ws/src/imav24/install/imav24/lib/imav24
+[0.926s] Installing joystick_control script to /home/ana/imav_ws/src/imav24/install/imav24/lib/imav24
+[0.926s] Installing line_follower script to /home/ana/imav_ws/src/imav24/install/imav24/lib/imav24
+[0.926s] Installing photographer_outdoor script to /home/ana/imav_ws/src/imav24/install/imav24/lib/imav24
+[0.926s] Installing px4_driver script to /home/ana/imav_ws/src/imav24/install/imav24/lib/imav24
+[0.926s] Installing send_command script to /home/ana/imav_ws/src/imav24/install/imav24/lib/imav24
+[0.926s] Installing state1 script to /home/ana/imav_ws/src/imav24/install/imav24/lib/imav24
+[0.926s] Installing state2 script to /home/ana/imav_ws/src/imav24/install/imav24/lib/imav24
+[0.926s] writing list of installed files to '/home/ana/imav_ws/src/imav24/build/imav24/install.log'
+[0.978s] Invoked command in '/home/ana/imav_ws/src/imav24' returned '0': PYTHONPATH=/home/ana/imav_ws/src/imav24/build/imav24/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ana/imav_ws/src/imav24/install/imav24/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/imav24 build --build-base /home/ana/imav_ws/src/imav24/build/imav24/build install --record /home/ana/imav_ws/src/imav24/build/imav24/install.log --single-version-externally-managed install_data
