@@ -9,7 +9,7 @@ from rclpy.node import Node
 from rclpy.qos import QoSProfile, ReliabilityPolicy, HistoryPolicy, DurabilityPolicy
 from px4_msgs.msg import VehicleGlobalPosition
 from std_msgs.msg import Empty, Float32, Bool, String
-#from sensor_msgs.msg import Image
+from sensor_msgs.msg import Image
 
 from cv_bridge import CvBridge 
 
